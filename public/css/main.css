@@ -1,0 +1,172 @@
+body {
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.header_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_top nav {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+}
+
+.header_top nav .nav_row {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_top nav .nav_row:first-child {
+    margin-bottom: 5px; /* Space between the rows */
+}
+
+.header_top nav .nav_row li {
+    margin: 0 10px; /* Adjust as needed for spacing */
+}
+
+.header_top nav .nav_row li a{
+    text-decoration: none;
+}
+
+.header_top .geo_button button,
+.header_top .login button {
+    cursor: pointer;
+}
+.header_top .geo_button button{
+    padding: 8px 20px;
+
+}
+.login button{
+    padding: 10px 28px;
+}
+.header_top .header_phone a {
+    text-decoration: none;
+    color: inherit; /* Adjust as needed */
+}
+.header_phone{
+    font-size: 18px;
+}
+.header_top .header_phone i {
+    margin-right: 5px; /* Adjust as needed for icon spacing */
+}
+
+.header_bottom nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_bottom nav .nav_row {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_bottom nav .nav_row li {
+    padding: 0 32px;
+}
+
+.header_bottom nav .nav_row li a{
+    text-decoration: none;
+}
+
+.header_bottom{
+    text-decoration: none;
+    color: inherit;
+}
+.menu{
+    justify-content: flex-start;
+    align-items: center;
+}
+.drop-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.chocolate{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+.cart{
+    font-size: 14px;
+}
+.cart button{
+    padding: 10px 20px;
+}
+
+a, a:active, a:disabled, a:visited, a:link {
+    color: #434B51;
+}
+a:hover{
+    color: #48A216;
+}
+nav > ul > li{
+    font-size: 14px;
+}
+
+button{
+    background-color: #48A216;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Nunito';
+    font-size: 14px;
+    color: white;
+}
+button:hover{
+    background-color: #434B51;
+}
+
+.slider {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
