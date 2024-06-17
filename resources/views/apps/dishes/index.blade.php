@@ -97,6 +97,195 @@
             <div><img src="{{asset('storage/img3.webp')}}" alt="Slide 3"></div>
             <!-- Add more slides as needed -->
         </div>
+        <div class="main">
+            <div class="title"><h1>Меню</h1></div>
+            <div class="dish-categories">
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/597b65fddb3a43f5a0ad14bea3ace0dd.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Мексика</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/64947d88a9a24138b21d914a38adedba.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Комбо-наборы</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/e882a6fafc964c8a8377c6932f488cf1.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Роллы</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/0b829e58cab341ed9e8a3bc090ac9c17.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Бургеры</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/88c86c94774d48099ca2ea10a1899f54.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Пицца</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/6659be1c17a145aabf80a366ccdb8c2b.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Гирос</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/d3566f49a1854518bcbe19a76fe852ad.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Сэндвичи</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/3936cc09bd0442288b8c4935869a7170.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Хот-доги</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/243129e1e3d14dd4aef74f54402ceaaa.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Вок и Рис</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/7a113c150d3744429e492c471be39703.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Супы</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/830309340a1d490ea7282ec37ea6c681.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Салаты</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/6ca47a155e3e4afeb5376a854841d399.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Шаурма</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/55067fd53b7743c18bdf96860f951756.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Закрытая пицца</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f51f29c994614c54a662efc65a9d7ea9.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Шашлык</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/39e7f48f5fde4be4a4d9063a77c8bebf.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Горячие закуски</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/23c3c06eeb7e43bd9c6bc635f5c1b292.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Соусы</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f88fa4d61eda499eaff84bff69f1dc64.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Напитки</p>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="category-image">
+                        <img
+                            src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f8f72ec1969f4b7eba08072e1ee2e1c3.jpg?w=600&amp;h=450"
+                            alt="Категория">
+                    </div>
+                    <div class="category-name">
+                        <p>Десерты</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @foreach($dishes as $dish)
+        {{$dish->name}}
+        @endforeach
     </div>
 </div>
 </body>
@@ -104,7 +293,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $('.slider').slick({
             dots: true,
             infinite: true,
