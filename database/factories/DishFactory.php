@@ -18,9 +18,11 @@ class DishFactory extends Factory
     public function definition(): array
     {
         return [
-            "name" => $this->faker->name,
+            "name" => "Название блюда ".$this->faker->randomDigit(),
             "price" => $this->faker->randomNumber(3),
-            "category_id" => $this->faker->randomElement(DishCategory::all()),
+            "weight" => $this->faker->randomNumber(3),
+            "content" => $this->faker->text(10),
+            "dish_category_id" => $this->faker->randomElement(DishCategory::all()),
         ];
     }
 }

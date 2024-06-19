@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->unsignedInteger('price');
-            $table->unsignedBigInteger('category_id');
+            $table->unsignedInteger('weight');
+            $table->text('content');
+            $table->unsignedBigInteger('dish_category_id');
             $table->timestamps();
             $table->softDeletes();
         });

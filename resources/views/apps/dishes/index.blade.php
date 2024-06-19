@@ -100,7 +100,7 @@
         <div class="main">
             <div class="title"><h1>Меню</h1></div>
             <div class="dish-categories">
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/597b65fddb3a43f5a0ad14bea3ace0dd.jpg?w=600&amp;h=450"
@@ -110,7 +110,7 @@
                         <p>Мексика</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/64947d88a9a24138b21d914a38adedba.jpg?w=600&amp;h=450"
@@ -120,7 +120,7 @@
                         <p>Комбо-наборы</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/e882a6fafc964c8a8377c6932f488cf1.jpg?w=600&amp;h=450"
@@ -130,7 +130,7 @@
                         <p>Роллы</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/0b829e58cab341ed9e8a3bc090ac9c17.jpg?w=600&amp;h=450"
@@ -140,7 +140,7 @@
                         <p>Бургеры</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/88c86c94774d48099ca2ea10a1899f54.jpg?w=600&amp;h=450"
@@ -150,7 +150,7 @@
                         <p>Пицца</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/6659be1c17a145aabf80a366ccdb8c2b.jpg?w=600&amp;h=450"
@@ -160,7 +160,7 @@
                         <p>Гирос</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/d3566f49a1854518bcbe19a76fe852ad.jpg?w=600&amp;h=450"
@@ -170,7 +170,7 @@
                         <p>Сэндвичи</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/3936cc09bd0442288b8c4935869a7170.jpg?w=600&amp;h=450"
@@ -180,7 +180,7 @@
                         <p>Хот-доги</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/243129e1e3d14dd4aef74f54402ceaaa.jpg?w=600&amp;h=450"
@@ -190,7 +190,7 @@
                         <p>Вок и Рис</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/7a113c150d3744429e492c471be39703.jpg?w=600&amp;h=450"
@@ -200,7 +200,7 @@
                         <p>Супы</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/830309340a1d490ea7282ec37ea6c681.jpg?w=600&amp;h=450"
@@ -210,7 +210,7 @@
                         <p>Салаты</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/6ca47a155e3e4afeb5376a854841d399.jpg?w=600&amp;h=450"
@@ -220,7 +220,7 @@
                         <p>Шаурма</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/55067fd53b7743c18bdf96860f951756.jpg?w=600&amp;h=450"
@@ -230,7 +230,7 @@
                         <p>Закрытая пицца</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f51f29c994614c54a662efc65a9d7ea9.jpg?w=600&amp;h=450"
@@ -240,7 +240,7 @@
                         <p>Шашлык</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/39e7f48f5fde4be4a4d9063a77c8bebf.jpg?w=600&amp;h=450"
@@ -250,7 +250,7 @@
                         <p>Горячие закуски</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/23c3c06eeb7e43bd9c6bc635f5c1b292.jpg?w=600&amp;h=450"
@@ -260,7 +260,7 @@
                         <p>Соусы</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f88fa4d61eda499eaff84bff69f1dc64.jpg?w=600&amp;h=450"
@@ -270,7 +270,7 @@
                         <p>Напитки</p>
                     </div>
                 </div>
-                <div class="category">
+                <div class="dish_category">
                     <div class="category-image">
                         <img
                             src="https://vsem-edu-oblako.ru/upload/store/merchant466/small/f8f72ec1969f4b7eba08072e1ee2e1c3.jpg?w=600&amp;h=450"
@@ -281,11 +281,34 @@
                     </div>
                 </div>
             </div>
+            <div class="categories">
+                @foreach($dish_categories as $category)
+                    <div class="category">
+                        <div class="category_title"><h3>{{$category->name}}</h3></div>
+                        <div class="category_products">
+                            @foreach($category->dishes()->get() as $dish)
+                                <div class="products_item">
+                                    <div class="item_image">
+                                        <img src="{{!is_null($dish->getFirstMedia('*')) ? $dish->getFirstMedia('*')->getUrl() : "https://vsem-edu-oblako.ru/upload/store/merchant466/small/9a41d2f3d9884fc794150accb54104d1.jpg?w=600&h=450"}}" alt="test">
+                                    </div>
+                                    <div class="item_content">
+                                        <div class="content_title">{{$dish->name}}</div>
+                                        <div class="content_weight">{{$dish->weight}}г.</div>
+                                        <div class="content_description">{{$dish->price}}₽</div>
+                                    </div>
+                                    <div class="item_actions">
+                                        <div class="action-left">
+                                            <button>Корзина</button>
+                                        </div>
+                                        <div class="action-right"></div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                @endforeach
+            </div>
         </div>
-
-        @foreach($dishes as $dish)
-        {{$dish->name}}
-        @endforeach
     </div>
 </div>
 </body>

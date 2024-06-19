@@ -17,7 +17,7 @@ class DishCategoryFactory extends Factory
     public function definition(): array
     {
         return [
-            "name" => $this->faker->name
+            "name" => "Название категории ".$this->faker->randomDigit()
         ];
     }
 }
