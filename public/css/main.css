@@ -213,20 +213,30 @@ nav > ul > li{
     align-content: space-between;
     flex-direction: column;
 }
+
 .category_products{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    gap: 32px;
 }
 .products_item{
-    width: 20%;
-    margin: 10px;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 .item_image {
     width: 100%;
 }
 .item_image img{
-    width: 250px;
+    max-width: 100%;
     border-radius: 15px;
+}
+.content_title span{
+    font-size: 18px;
+}
+.content_title{
+    margin: 0 auto;
+}
+.item_content{
+    margin-top: 32px;
 }

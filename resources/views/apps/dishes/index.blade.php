@@ -292,9 +292,10 @@
                                         <img src="{{!is_null($dish->getFirstMedia('*')) ? $dish->getFirstMedia('*')->getUrl() : "https://vsem-edu-oblako.ru/upload/store/merchant466/small/9a41d2f3d9884fc794150accb54104d1.jpg?w=600&h=450"}}" alt="test">
                                     </div>
                                     <div class="item_content">
-                                        <div class="content_title">{{$dish->name}}</div>
+                                        <div class="content_title"><span><b>{{$dish->name}}</b></span></div>
                                         <div class="content_weight">{{$dish->weight}}г.</div>
-                                        <div class="content_description">{{$dish->price}}₽</div>
+                                        <div class="content_description">{{$dish->content}}</div>
+                                        <div class="content_price">{{$dish->price}}₽</div>
                                     </div>
                                     <div class="item_actions">
                                         <div class="action-left">

@@ -21,7 +21,7 @@ class DishFactory extends Factory
             "name" => "Название блюда ".$this->faker->randomDigit(),
             "price" => $this->faker->randomNumber(3),
             "weight" => $this->faker->randomNumber(3),
-            "content" => $this->faker->text(10),
+            "content" => $this->faker->text(500),
             "dish_category_id" => $this->faker->randomElement(DishCategory::all()),
         ];
     }
