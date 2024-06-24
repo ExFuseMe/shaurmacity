@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Шаурма Сити</title>
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">--}}
+{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">--}}
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 </head>
 <body>
@@ -53,7 +53,7 @@
                         8 (8552) 200-201</a>
                 </div>
                 <div class="login">
-                    <button>Войти</button>
+                    <a href="/login" >Войти</a>
                 </div>
             </div>
             <div class="header_bottom">
@@ -91,12 +91,12 @@
             </div>
 
         </header>
-        <div class="slider">
-            <div><img src="{{asset('storage/img1.webp')}}" alt="Slide 1"></div>
-            <div><img src="{{asset('storage/img2.webp')}}" alt="Slide 2"></div>
-            <div><img src="{{asset('storage/img3.webp')}}" alt="Slide 3"></div>
-            <!-- Add more slides as needed -->
-        </div>
+{{--        <div class="slider">--}}
+{{--            <div><img src="{{asset('storage/img1.webp')}}" alt="Slide 1"></div>--}}
+{{--            <div><img src="{{asset('storage/img2.webp')}}" alt="Slide 2"></div>--}}
+{{--            <div><img src="{{asset('storage/img3.webp')}}" alt="Slide 3"></div>--}}
+{{--            <!-- Add more slides as needed -->--}}
+{{--        </div>--}}
         <div class="main">
             <div class="title"><h1>Меню</h1></div>
             <div class="dish-categories">
@@ -284,26 +284,32 @@
             <div class="categories">
                 @foreach($dish_categories as $category)
                     <div class="category">
-                        <div class="category_title"><h3>{{$category->name}}</h3></div>
+                        <div class="category_title"><span>{{$category->name}}</span></div>
                         <div class="category_products">
                             @foreach($category->dishes()->get() as $dish)
-                                <div class="products_item">
-                                    <div class="item_image">
-                                        <img src="{{!is_null($dish->getFirstMedia('*')) ? $dish->getFirstMedia('*')->getUrl() : "https://vsem-edu-oblako.ru/upload/store/merchant466/small/9a41d2f3d9884fc794150accb54104d1.jpg?w=600&h=450"}}" alt="test">
-                                    </div>
-                                    <div class="item_content">
-                                        <div class="content_title"><span><b>{{$dish->name}}</b></span></div>
-                                        <div class="content_weight">{{$dish->weight}}г.</div>
-                                        <div class="content_description">{{$dish->content}}</div>
-                                        <div class="content_price">{{$dish->price}}₽</div>
-                                    </div>
-                                    <div class="item_actions">
-                                        <div class="action-left">
-                                            <button>Корзина</button>
+                                <form action="{{route('carts.update')}}" method="POST">
+                                    @method('PUT')
+                                    @csrf
+                                    <input type="hidden" value="{{$dish->id}}" id="dish_id" name="dish_id">
+                                    <div class="products_item">
+                                        <div class="item_image">
+                                            <img src="{{!is_null($dish->getFirstMedia('*')) ? $dish->getFirstMedia('*')->getUrl() : "https://vsem-edu-oblako.ru/upload/store/merchant466/small/9a41d2f3d9884fc794150accb54104d1.jpg?w=600&h=450"}}" alt="test">
                                         </div>
-                                        <div class="action-right"></div>
+                                        <div class="item_content">
+                                            <div class="content_title"><span><b>{{$dish->name}}</b></span></div>
+                                            <div class="content_weight">{{$dish->weight}}г.</div>
+                                            <div class="content_description">{{$dish->content}}</div>
+                                        </div>
+                                        <div class="item_actions">
+                                            <div class="action-left">
+                                                <button type="submit">Корзина</button>
+                                            </div>
+                                            <div class="action-right">
+                                                <p> {{$dish->price}}₽</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </form>
                             @endforeach
                         </div>
                     </div>
@@ -312,6 +318,14 @@
         </div>
     </div>
 </div>
+<footer>
+    <div class="footer-container">
+        <div class="logo">
+            <a href="{{route('dishes.index')}}"><img src="{{asset('storage/logo.webp')}}" height="80"
+                                                     width="80"></a>
+        </div>
+    </div>
+</footer>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

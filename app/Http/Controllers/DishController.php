@@ -11,8 +11,8 @@ class DishController extends Controller
 {
     public function index(Request $request): View
     {
-        $dish_categories = DishCategory::all()->each(function ($query){
-            return $query->with('dishes');
+        $dish_categories = DishCategory::has('dishes')->with('dishes')->get()->filter(function ($category) {
+            return $category->dishes->count() > 0;
         });
         return view('apps.dishes.index', compact('dish_categories'));
     }
