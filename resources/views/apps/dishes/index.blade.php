@@ -327,6 +327,16 @@
     </div>
 </footer>
 </body>
+<script>
+    @vite('resources/js/app.js')
+    setTimeout(() => {
+
+        window.Echo.channel('cart-price-1')
+            .listen('user.cart', (event) => {
+                console.log(event);
+            });
+    }, 200);
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\changeCartPriceEvent;
 use App\Http\Requests\CartUpdateRequest;
 use App\Models\Cart;
+use App\Models\Dish;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -38,14 +40,15 @@ class CartController extends Controller
      */
     public function update(CartUpdateRequest $request)
     {
-        if(Auth::user()){
-            $cart = Cart::where('user_id', Auth::id())->first();
-            if(is_null($cart)){
-                $userCart = Cart::create([
-                    'user_id' =>1,
-                ]);
+        $user = Auth::user();
+        if($user){
+            if(is_null($user->cart_id)){
+                $userCart = Cart::create();
+                $user->cart_id = $userCart->id;
+                $user->save();
             }
-            dd($userCart);
+            $user->cart()->addToCart(Dish::find($request->validated()['dish_id']));
+            event(new changeCartPriceEvent($user->cart()));
         }
         return redirect()->route('login');
     }
